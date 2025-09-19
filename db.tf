@@ -7,7 +7,7 @@ resource "aws_db_instance" "project1_rds" {
 
   db_name           = "project1db"
   username          = "adminuser"
-  password          = "Nigeria1983$"  
+  password          = "USEYOURPASSWORD"  
   port              = 3306
 
   vpc_security_group_ids = [aws_security_group.rds_sg.id]
